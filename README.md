@@ -62,6 +62,9 @@
 |--------|-------------|------------|------|
 | 🎯 **Real-time Chat App** | A real-time chat application with rooms, dark mode, emoji picker, and file sharing | **Frontend:** HTML, CSS, JavaScript<br>**Backend:** Node.js, Express.js<br>**Real-time:** Socket.IO | [View Live](https://real-time-chat-app-pazo.onrender.com/) |
 | 🎯 **E-placement Website** | A college Specific Website for Managing Placements | **Frontend:** HTML, CSS, JavaScript<br>**Backend:** Node.js, Express.js,email.js <br>**Database:** Firebase | [View Live](https://benevolent-chebakia-c10d0f.netlify.app//) |
+| 🍽️ **Foodora** | A modern online restaurant platform with food ordering, cart management, table booking, OTP login, and Telegram notifications | **Frontend:** React, Tailwind CSS<br>**Backend:** Node.js, Express.js<br>**Database:** MongoDB | [Repository](https://github.com/sahilmunj10/foodora) |
+| 🎮 **CodeQuest** | A gamified coding learning platform with coding challenges, XP system, progress tracking, and interactive UI | **Frontend:** React, Tailwind CSS<br>**Backend:** Node.js, Express.js<br>**Database:** MongoDB | [Repository](https://github.com/sahilmunj10/codequest) |
+
 
 ---
 
