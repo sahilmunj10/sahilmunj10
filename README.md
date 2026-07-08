@@ -50,8 +50,12 @@
 ## 📈 GitHub Stats & Streak
 
 <p align="center">
-  <img width="45%" src="./generated/overview.svg#gh-dark-mode-only"/>
-  <img width="45%" src="./generated/languages.svg#gh-dark-mode-only"/>
+  <img height="165" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=SahilMunj&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=SahilMunj&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SahilMunj&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
