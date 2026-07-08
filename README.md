@@ -1,5 +1,7 @@
-<h1 align="center">Hi there 👋, I'm Sahil Munj</h1>
-<h3 align="center">Computer Engineering Student & Full Stack Developer</h3>
+<!-- Animated Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=200&section=header&text=Sahil%20Munj&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Computer%20Engineering%20Student&descAlignY=55&descSize=18" width="100%"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&color=6C63FF&width=500&lines=Frontend+Developer;Full+Stack+Web+Development;Passionate+Problem+Solver;Always+Learning+Something+New" alt="Typing SVG" />
@@ -22,7 +24,7 @@
 
 ## About Me
 
-- 🎓 Final-year **Computer Engineering** student at *Watumull Institute of Technology and Engineering*
+- 🎓 Third-year **Computer Engineering** student at *Watumull Institute of Technology and Engineering*
 - 🌐 Passionate about building clean, efficient web apps with real-world use cases
 - 🚀 Currently working with the **MERN stack**, sharpening **DSA**, and solving real problems through code
 - 🎯 Goal: become a creative, impactful **Full Stack Developer**
@@ -48,12 +50,12 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SahilMunj&show_icons=true&theme=tokyonight&hide_border=false" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SahilMunj&theme=tokyonight&hide_border=false" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SahilMunj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SahilMunj&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SahilMunj&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SahilMunj&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -90,4 +92,9 @@
   <a href="https://github.com/sahilmunj10">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+</p>
+
+<!-- Animated Footer Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=footer" width="100%"/>
 </p>
