@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .beam { animation: slide 4.5s cubic-bezier(.45,0,.55,1) infinite; }
+      .dot  { animation: pulse 2.2s ease-in-out infinite; }
+      @keyframes slide { 0% { transform: translateX(-320px); } 100% { transform: translateX(1200px); } }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect x="0" y="11.5" width="1200" height="1" fill="url(#base)"/>
+  <rect class="beam" x="0" y="10.5" width="320" height="3" rx="1.5" fill="url(#beam)"/>
+  <circle class="dot" cx="600" cy="12" r="3" fill="#22d3ee"/>
+</svg>
