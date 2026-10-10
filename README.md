@@ -63,187 +63,77 @@
 <a id="projects"></a>
 ## Featured Projects
 
-<p align="center"><sub>Seven projects spanning healthcare technology, education, AI, computer vision, data analytics and web applications. Every description below is based on the repository source.</sub></p>
+<p align="center"><sub>Seven projects spanning healthcare technology, education, AI, computer vision, data analytics and web applications. Every description is based on the repository source.</sub></p>
 
 <table>
-  <!-- ─────────── Row 1: SwastyaSetu · CodeQuest ─────────── -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🩺 SwastyaSetu</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Healthcare_Tech-0b1220?style=flat-square&logoColor=22d3ee" alt="Healthcare Tech" />
-        <img src="https://img.shields.io/badge/SIH_Prototype-0b1220?style=flat-square&logoColor=a78bfa" alt="Smart India Hackathon Prototype" />
-      </p>
-      <p>A care-continuity platform for rural public health in India, linking patients, ASHA frontline workers, PHC doctors, labs, pharmacies and district officers into <em>one continuous healthcare journey</em>. Built as a Smart India Hackathon software prototype (Problem Statement 26133, Govt. of Maharashtra).</p>
-      <p><strong>Implemented:</strong> seven role-based dashboards, guided triage engine (ROUTINE → EMERGENCY), 8-stage referral tracking, patient EHR timeline with vitals charts, medicine-availability finder, diagnostics coordination, teleconsultation page with low-bandwidth mode, offline-first PWA sync via IndexedDB, and English/Marathi/Hindi localisation.</p>
-      <p><strong>Technical highlight:</strong> a rule-based follow-up risk scorer and triage engine on the backend, with JWT auth, audit middleware and a Prisma/SQLite schema — zero-config to run locally.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React_18-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-1e293b?style=flat-square&logo=typescript&logoColor=3178c6" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Vite-1e293b?style=flat-square&logo=vite&logoColor=a78bfa" alt="Vite" />
-        <img src="https://img.shields.io/badge/Tailwind-1e293b?style=flat-square&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/Express-1e293b?style=flat-square&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/Prisma-1e293b?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-        <img src="https://img.shields.io/badge/SQLite-1e293b?style=flat-square&logo=sqlite&logoColor=0ea5e9" alt="SQLite" />
-        <img src="https://img.shields.io/badge/Leaflet-1e293b?style=flat-square&logo=leaflet&logoColor=199900" alt="Leaflet" />
-        <img src="https://img.shields.io/badge/Recharts-1e293b?style=flat-square&logoColor=white" alt="Recharts" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/SwastyaSetu"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View SwastyaSetu repository" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎮 CodeQuest</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Gamified_Learning-0b1220?style=flat-square&logoColor=22d3ee" alt="Gamified Learning" />
-        <img src="https://img.shields.io/badge/MERN_%2B_Socket.IO-0b1220?style=flat-square&logoColor=a78bfa" alt="MERN and Socket.IO" />
-      </p>
-      <p>A full-stack gamified coding platform that teaches programming through structured courses, hands-on challenges and project-based learning — with XP, levels, streaks, badges, ranks and a leaderboard to keep learners moving.</p>
-      <p><strong>Implemented:</strong> multi-course level progression with theory and quizzes, Monaco-based in-browser editor with JavaScript/Python/HTML execution routes, step-by-step project tutorials with draft saving, a custom project builder, community feed with likes/comments and automated achievement posts, real-time chat rooms, daily challenges, a "30 Nites of Coding" path, and an AI assistant.</p>
-      <p><strong>Technical highlight:</strong> an LLM-powered chatbot (Groq SDK) plus a server-side Python executor, backed by 15 Mongoose models covering courses, progress, posts, projects and chat.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React_19-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
-        <img src="https://img.shields.io/badge/Vite_7-1e293b?style=flat-square&logo=vite&logoColor=a78bfa" alt="Vite" />
-        <img src="https://img.shields.io/badge/Tailwind_v4-1e293b?style=flat-square&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/Node.js-1e293b?style=flat-square&logo=nodedotjs&logoColor=5fa04e" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Express-1e293b?style=flat-square&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/MongoDB-1e293b?style=flat-square&logo=mongodb&logoColor=47a248" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/Socket.IO-1e293b?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
-        <img src="https://img.shields.io/badge/Monaco_Editor-1e293b?style=flat-square&logoColor=white" alt="Monaco Editor" />
-        <img src="https://img.shields.io/badge/Groq_API-1e293b?style=flat-square&logoColor=f55036" alt="Groq API" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/codequest"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View CodeQuest repository" /></a>
-      </p>
-    </td>
-  </tr>
-
-  <!-- ─────────── Row 2: ResearchIQ · Hand Gesture Game ─────────── -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🔬 ResearchIQ</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/AI_%2F_Research-0b1220?style=flat-square&logoColor=22d3ee" alt="AI / Research" />
-      </p>
-      <p>A research-oriented project focused on making academic research workflows faster and more intelligent.</p>
-      <!-- PLACEHOLDER: the ResearchIQ repository was not publicly accessible when this README was written.
-           Replace the paragraph below with a verified description, feature list and tech badges once the repo is public. -->
-      <p><strong>Status:</strong> repository is currently private / being prepared for public release. A detailed description, feature list and tech stack will be added once it is published.</p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/ResearchIQ"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View ResearchIQ repository" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">✋ Hand Gesture Game — <em>Catch the Stars</em></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Computer_Vision-0b1220?style=flat-square&logoColor=22d3ee" alt="Computer Vision" />
-        <img src="https://img.shields.io/badge/Browser_Game-0b1220?style=flat-square&logoColor=a78bfa" alt="Browser Game" />
-      </p>
-      <p>A webcam-controlled arcade game: move your hand to steer a basket and catch falling stars, coins and diamonds while dodging bombs. All tracking runs client-side — no video leaves the device.</p>
-      <p><strong>Implemented:</strong> 21-point hand tracking with MediaPipe Hands, exponential smoothing to remove jitter, a rule-based gesture classifier (open palm, thumbs-up, peace, fist) that triggers power-ups like shield, 2× score, slow-motion and magnet, combo multipliers, dynamic difficulty, procedural Web Audio sound synthesis, localStorage high scores, and a mouse/touch fallback when camera access is denied.</p>
-      <p><strong>Technical highlight:</strong> gesture detection is written from scratch on raw landmark geometry with hold-frame confirmation and per-gesture cooldowns — no ML training step required.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/JavaScript_(ES_Modules)-1e293b?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/MediaPipe_Hands-1e293b?style=flat-square&logo=google&logoColor=4285f4" alt="MediaPipe Hands" />
-        <img src="https://img.shields.io/badge/HTML5_Canvas-1e293b?style=flat-square&logo=html5&logoColor=e34f26" alt="HTML5 Canvas" />
-        <img src="https://img.shields.io/badge/Web_Audio_API-1e293b?style=flat-square&logoColor=white" alt="Web Audio API" />
-        <img src="https://img.shields.io/badge/Vite-1e293b?style=flat-square&logo=vite&logoColor=a78bfa" alt="Vite" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/hand-gesture-game"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Hand Gesture Game repository" /></a>
-        <a href="https://hand-gesture-game-rust.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Play the live demo" /></a>
-      </p>
-    </td>
-  </tr>
-
-  <!-- ─────────── Row 3: Retail Sales Dashboard · E-Placement ─────────── -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📊 Retail Sales Analysis Dashboard</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Business_Intelligence-0b1220?style=flat-square&logoColor=22d3ee" alt="Business Intelligence" />
-      </p>
-      <p>An interactive Power BI dashboard built on the Superstore retail dataset that turns raw order records into an executive view of sales, profit, orders and product performance.</p>
-      <p><strong>Implemented:</strong> KPI cards for Total Sales, Total Profit, Total Orders, Average Sales and Profit Margin %; monthly sales trend; sales by category and region; Top-10 products; and slicer-driven interactive filtering. Data shaping is done in Power Query with custom DAX measures.</p>
-      <p><strong>Technical highlight:</strong> a reusable <code>.pbit</code> template is shipped alongside the <code>.pbix</code> report so the model can be re-pointed at new data.</p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/Retail-Sales-Analysis-Dashboard"><img src="https://github.com/user-attachments/assets/b9232d23-a17a-4091-bc84-cbc9c787d7e5" alt="Retail Sales Analysis Dashboard preview — Power BI executive summary page" width="92%" /></a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Power_BI-1e293b?style=flat-square&logo=powerbi&logoColor=f2c811" alt="Power BI" />
-        <img src="https://img.shields.io/badge/DAX-1e293b?style=flat-square&logoColor=white" alt="DAX" />
-        <img src="https://img.shields.io/badge/Power_Query-1e293b?style=flat-square&logoColor=white" alt="Power Query" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/Retail-Sales-Analysis-Dashboard"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Retail Sales Analysis Dashboard repository" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎓 E-Placement Portal</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Placement_Management-0b1220?style=flat-square&logoColor=22d3ee" alt="Placement Management" />
-        <img src="https://img.shields.io/badge/Serverless-0b1220?style=flat-square&logoColor=a78bfa" alt="Serverless" />
-      </p>
-      <p>A web portal for managing college placement activities, with separate student and faculty workflows and no custom server to maintain.</p>
-      <p><strong>Implemented:</strong> role-based auth for students and faculty, placement posting with deadlines and automatic expiry, application forms with status tracking, student profile management, an in-browser resume generator with PDF download (html2pdf.js), resume upload to Firebase Storage, faculty views to manage students and applications, dark mode, and email notifications to students when new placements are posted.</p>
-      <p><strong>Technical highlight:</strong> Firebase Cloud Functions with Nodemailer handle notification emails, while Firestore security rules and indexes are version-controlled in the repo.</p>
-      <p align="center">
-        <a href="https://benevolent-chebakia-c10d0f.netlify.app/"><img src="https://raw.githubusercontent.com/sahilmunj10/E-placement/main/image.png" alt="E-Placement Portal preview" width="92%" /></a>
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/HTML5-1e293b?style=flat-square&logo=html5&logoColor=e34f26" alt="HTML5" />
-        <img src="https://img.shields.io/badge/Tailwind-1e293b?style=flat-square&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/JavaScript-1e293b?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Firebase-1e293b?style=flat-square&logo=firebase&logoColor=ffca28" alt="Firebase Auth, Firestore, Storage, Functions" />
-        <img src="https://img.shields.io/badge/Nodemailer-1e293b?style=flat-square&logoColor=white" alt="Nodemailer" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/sahilmunj10/E-placement"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View E-Placement repository" /></a>
-        <a href="https://benevolent-chebakia-c10d0f.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=netlify&logoColor=00c7b7" alt="Open the live demo" /></a>
-      </p>
-    </td>
-  </tr>
-
-  <!-- ─────────── Row 4: Foodora ─────────── -->
-  <tr>
-    <td colspan="2" valign="top">
-      <table width="100%">
-        <tr>
-          <td width="38%" valign="middle" align="center">
-            <a href="https://foodora-theta.vercel.app/"><img src="https://raw.githubusercontent.com/sahilmunj10/foodora/main/Screenshot%202025-08-08%20150713.png" alt="Foodora home page preview" width="100%" /></a>
-          </td>
-          <td width="62%" valign="top">
-            <h3>🍽️ Foodora</h3>
-            <p>
-              <img src="https://img.shields.io/badge/Restaurant_Web_App-0b1220?style=flat-square&logoColor=22d3ee" alt="Restaurant Web App" />
-              <img src="https://img.shields.io/badge/Frontend_%2B_Integrations-0b1220?style=flat-square&logoColor=a78bfa" alt="Frontend plus integrations" />
-            </p>
-            <p>A responsive restaurant web app covering the whole dining flow: browse and search the menu, build a cart with a live bill, place an order, and book a table.</p>
-            <p><strong>Implemented:</strong> email OTP login (OTP sent via Google Apps Script MailApp), menu and cart persisted in <code>localStorage</code>, order-summary popup on checkout, table booking form, and instant <strong>Telegram Bot</strong> notifications to the restaurant for every order and booking. Login events are logged to Google Sheets through Apps Script.</p>
-            <p><strong>Technical highlight:</strong> a working order-and-booking pipeline with zero backend servers — the browser talks directly to Apps Script and the Telegram Bot API.</p>
-            <p>
-              <img src="https://img.shields.io/badge/HTML5-1e293b?style=flat-square&logo=html5&logoColor=e34f26" alt="HTML5" />
-              <img src="https://img.shields.io/badge/CSS3-1e293b?style=flat-square&logo=css&logoColor=1572b6" alt="CSS3" />
-              <img src="https://img.shields.io/badge/JavaScript-1e293b?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
-              <img src="https://img.shields.io/badge/Google_Apps_Script-1e293b?style=flat-square&logo=googleappsscript&logoColor=4285f4" alt="Google Apps Script" />
-              <img src="https://img.shields.io/badge/Telegram_Bot_API-1e293b?style=flat-square&logo=telegram&logoColor=26a5e4" alt="Telegram Bot API" />
-              <img src="https://img.shields.io/badge/Vercel-1e293b?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-            </p>
-            <p>
-              <a href="https://github.com/sahilmunj10/foodora"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Foodora repository" /></a>
-              <a href="https://foodora-theta.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Open the live demo" /></a>
-            </p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🩺 SwastyaSetu</h3>
+<p align="center"><img src="https://img.shields.io/badge/Healthcare_Tech-0b1220?style=flat-square" alt="Healthcare Tech" /> <img src="https://img.shields.io/badge/SIH_Prototype-0b1220?style=flat-square" alt="SIH Prototype" /></p>
+<p>Care-continuity platform for rural public health in India, linking patients, ASHA workers, PHC doctors, labs, pharmacies and district officers through seven role-based dashboards. Built as a Smart India Hackathon prototype.</p>
+<p><b>Highlight:</b> guided triage engine, 8-stage referral tracking, offline-first PWA sync and English/Marathi/Hindi localisation, on a Prisma/SQLite backend with JWT auth.</p>
+<p><b>Stack:</b> React 18 · TypeScript · Vite · Tailwind · Express · Prisma · SQLite · Leaflet · Recharts</p>
+<p align="center"><a href="https://github.com/sahilmunj10/SwastyaSetu"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View SwastyaSetu repository" /></a></p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🎮 CodeQuest</h3>
+<p align="center"><img src="https://img.shields.io/badge/Gamified_Learning-0b1220?style=flat-square" alt="Gamified Learning" /> <img src="https://img.shields.io/badge/MERN_+_Socket.IO-0b1220?style=flat-square" alt="MERN and Socket.IO" /></p>
+<p>Full-stack gamified coding platform: structured courses, in-browser coding challenges, project tutorials, community feed and real-time chat, driven by XP, levels, streaks, badges and a leaderboard.</p>
+<p><b>Highlight:</b> Monaco editor with JavaScript/Python/HTML execution, a Groq-powered AI assistant and Socket.IO chat rooms over 15 Mongoose models.</p>
+<p><b>Stack:</b> React 19 · Vite 7 · Tailwind v4 · Node.js · Express · MongoDB · Socket.IO · Groq API</p>
+<p align="center"><a href="https://github.com/sahilmunj10/codequest"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View CodeQuest repository" /></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🔬 ResearchIQ</h3>
+<p align="center"><img src="https://img.shields.io/badge/AI_/_Research-0b1220?style=flat-square" alt="AI / Research" /></p>
+<p>Research-oriented project focused on making academic research workflows faster and more intelligent.</p>
+<p><b>Status:</b> repository is currently private. A detailed description, features and tech stack will be added once it is public.</p>
+<p align="center"><a href="https://github.com/sahilmunj10/ResearchIQ"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View ResearchIQ repository" /></a></p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">✋ Hand Gesture Game</h3>
+<p align="center"><img src="https://img.shields.io/badge/Computer_Vision-0b1220?style=flat-square" alt="Computer Vision" /> <img src="https://img.shields.io/badge/Browser_Game-0b1220?style=flat-square" alt="Browser Game" /></p>
+<p><i>Catch the Stars</i> — a webcam-controlled arcade game: steer a basket with your hand, catch stars and coins, dodge bombs. All tracking runs client-side; no video leaves the device.</p>
+<p><b>Highlight:</b> rule-based gesture classifier (palm, thumbs-up, peace, fist) on MediaPipe landmarks triggers power-ups; procedural Web Audio sound; mouse/touch fallback.</p>
+<p><b>Stack:</b> JavaScript · MediaPipe Hands · HTML5 Canvas · Web Audio API · Vite</p>
+<p align="center"><a href="https://github.com/sahilmunj10/hand-gesture-game"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Hand Gesture Game repository" /></a> <a href="https://hand-gesture-game-rust.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Play the live demo" /></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">📊 Retail Sales Analysis Dashboard</h3>
+<p align="center"><img src="https://img.shields.io/badge/Business_Intelligence-0b1220?style=flat-square" alt="Business Intelligence" /></p>
+<p>Interactive Power BI report on the Superstore retail dataset, turning raw order records into an executive view of sales, profit, orders and product performance.</p>
+<p><b>Highlight:</b> KPIs for Total Sales, Profit, Orders, Average Sales and Profit Margin %, monthly trend, category/region breakdowns, Top-10 products and slicer filtering; ships a reusable <code>.pbit</code> template.</p>
+<p><b>Stack:</b> Power BI · DAX · Power Query</p>
+<p align="center"><a href="https://github.com/sahilmunj10/Retail-Sales-Analysis-Dashboard"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Retail Sales Analysis Dashboard repository" /></a></p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🎓 E-Placement Portal</h3>
+<p align="center"><img src="https://img.shields.io/badge/Placement_Management-0b1220?style=flat-square" alt="Placement Management" /> <img src="https://img.shields.io/badge/Serverless-0b1220?style=flat-square" alt="Serverless" /></p>
+<p>College placement portal with separate student and faculty workflows: post placements with deadlines, apply, track applications and manage students.</p>
+<p><b>Highlight:</b> in-browser resume generator with PDF download, auto-expiring placements, dark mode, and email notifications via Firebase Cloud Functions + Nodemailer.</p>
+<p><b>Stack:</b> HTML · Tailwind · JavaScript · Firebase (Auth, Firestore, Storage, Functions)</p>
+<p align="center"><a href="https://github.com/sahilmunj10/E-placement"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View E-Placement repository" /></a> <a href="https://benevolent-chebakia-c10d0f.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=netlify&logoColor=00c7b7" alt="Open the live demo" /></a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3 align="center">🍽️ Foodora</h3>
+<p align="center"><img src="https://img.shields.io/badge/Restaurant_Web_App-0b1220?style=flat-square" alt="Restaurant Web App" /> <img src="https://img.shields.io/badge/Frontend_+_Integrations-0b1220?style=flat-square" alt="Frontend plus integrations" /></p>
+<p>Responsive restaurant web app covering the full dining flow: browse and search the menu, build a cart with a live bill, place an order and book a table.</p>
+<p><b>Highlight:</b> email OTP login via Google Apps Script, and every order and booking pushed to the restaurant on Telegram — a working pipeline with no backend server.</p>
+<p><b>Stack:</b> HTML · CSS · JavaScript · Google Apps Script · Telegram Bot API · Vercel</p>
+<p align="center"><a href="https://github.com/sahilmunj10/foodora"><img src="https://img.shields.io/badge/View_Repository-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="View Foodora repository" /></a> <a href="https://foodora-theta.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Open the live demo" /></a></p>
+</td>
+</tr>
 </table>
 
 <p align="center"><sub>More on my profile: a real-time <a href="https://github.com/sahilmunj10/chatapp">chat app</a> (Socket.IO), a <a href="https://github.com/sahilmunj10/Python-Analysis-Page">Python analysis page</a> (Streamlit) and <a href="https://github.com/sahilmunj10/X-GEO">X-GEO</a>, an explainable GEO optimisation tool.</sub></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
-
 <a id="tech-stack"></a>
 ## Tech Stack
 
